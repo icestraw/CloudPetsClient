@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584A0BA11F710532006BC776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA01F710532006BC776 /* AppDelegate.m */; };
+		584A0BA41F710532006BC776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA31F710532006BC776 /* ViewController.m */; };
+		584A0BA71F710532006BC776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA51F710532006BC776 /* Main.storyboard */; };
+		584A0BA91F710532006BC776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA81F710532006BC776 /* Assets.xcassets */; };
+		584A0BAC1F710532006BC776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BAA1F710532006BC776 /* LaunchScreen.storyboard */; };
+		584A0BAF1F710532006BC776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BAE1F710532006BC776 /* main.m */; };
+		584A0BB91F710533006BC776 /* CloudPetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BB81F710533006BC776 /* CloudPetsTests.m */; };
+		584A0BC41F710533006BC776 /* CloudPetsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BC31F710533006BC776 /* CloudPetsUITests.m */; };
+		584A0BD51F7107D3006BC776 /* CLPPetListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BD41F7107D3006BC776 /* CLPPetListCollectionViewController.m */; };
+		584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BDA1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m */; };
+		58B2FCF71F71241300966D7E /* CLPetLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2FCF61F71241300966D7E /* CLPetLiveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584A0BB51F710533006BC776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584A0B941F710532006BC776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584A0B9B1F710532006BC776;
+			remoteInfo = CloudPets;
+		};
+		584A0BC01F710533006BC776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584A0B941F710532006BC776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584A0B9B1F710532006BC776;
+			remoteInfo = CloudPets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584A0B9C1F710532006BC776 /* CloudPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A0B9F1F710532006BC776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584A0BA01F710532006BC776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584A0BA21F710532006BC776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584A0BA31F710532006BC776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584A0BA61F710532006BC776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584A0BA81F710532006BC776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584A0BAB1F710532006BC776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584A0BAD1F710532006BC776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A0BAE1F710532006BC776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584A0BB41F710533006BC776 /* CloudPetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudPetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A0BB81F710533006BC776 /* CloudPetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudPetsTests.m; sourceTree = "<group>"; };
+		584A0BBA1F710533006BC776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A0BBF1F710533006BC776 /* CloudPetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudPetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A0BC31F710533006BC776 /* CloudPetsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudPetsUITests.m; sourceTree = "<group>"; };
+		584A0BC51F710533006BC776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A0BD31F7107D3006BC776 /* CLPPetListCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetListCollectionViewController.h; sourceTree = "<group>"; };
+		584A0BD41F7107D3006BC776 /* CLPPetListCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetListCollectionViewController.m; sourceTree = "<group>"; };
+		584A0BD91F710DD5006BC776 /* CLPPetShowcaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetShowcaseTableViewController.h; sourceTree = "<group>"; };
+		584A0BDA1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetShowcaseTableViewController.m; sourceTree = "<group>"; };
+		58B2FCF51F71241300966D7E /* CLPetLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPetLiveViewController.h; sourceTree = "<group>"; };
+		58B2FCF61F71241300966D7E /* CLPetLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPetLiveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584A0B991F710532006BC776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BB11F710533006BC776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BBC1F710533006BC776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584A0B931F710532006BC776 = {
+			isa = PBXGroup;
+			children = (
+				584A0B9E1F710532006BC776 /* CloudPets */,
+				584A0BB71F710533006BC776 /* CloudPetsTests */,
+				584A0BC21F710533006BC776 /* CloudPetsUITests */,
+				584A0B9D1F710532006BC776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584A0B9D1F710532006BC776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584A0B9C1F710532006BC776 /* CloudPets.app */,
+				584A0BB41F710533006BC776 /* CloudPetsTests.xctest */,
+				584A0BBF1F710533006BC776 /* CloudPetsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584A0B9E1F710532006BC776 /* CloudPets */ = {
+			isa = PBXGroup;
+			children = (
+				584A0BD11F71079A006BC776 /* Pets */,
+				584A0BD21F7107A7006BC776 /* User */,
+				584A0B9F1F710532006BC776 /* AppDelegate.h */,
+				584A0BA01F710532006BC776 /* AppDelegate.m */,
+				584A0BA21F710532006BC776 /* ViewController.h */,
+				584A0BA31F710532006BC776 /* ViewController.m */,
+				584A0BA51F710532006BC776 /* Main.storyboard */,
+				584A0BA81F710532006BC776 /* Assets.xcassets */,
+				584A0BAA1F710532006BC776 /* LaunchScreen.storyboard */,
+				584A0BAD1F710532006BC776 /* Info.plist */,
+				584A0BAE1F710532006BC776 /* main.m */,
+			);
+			path = CloudPets;
+			sourceTree = "<group>";
+		};
+		584A0BB71F710533006BC776 /* CloudPetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				584A0BB81F710533006BC776 /* CloudPetsTests.m */,
+				584A0BBA1F710533006BC776 /* Info.plist */,
+			);
+			path = CloudPetsTests;
+			sourceTree = "<group>";
+		};
+		584A0BC21F710533006BC776 /* CloudPetsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				584A0BC31F710533006BC776 /* CloudPetsUITests.m */,
+				584A0BC51F710533006BC776 /* Info.plist */,
+			);
+			path = CloudPetsUITests;
+			sourceTree = "<group>";
+		};
+		584A0BD11F71079A006BC776 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				584A0BD31F7107D3006BC776 /* CLPPetListCollectionViewController.h */,
+				584A0BD41F7107D3006BC776 /* CLPPetListCollectionViewController.m */,
+				584A0BD91F710DD5006BC776 /* CLPPetShowcaseTableViewController.h */,
+				584A0BDA1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		584A0BD21F7107A7006BC776 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				58B2FCF51F71241300966D7E /* CLPetLiveViewController.h */,
+				58B2FCF61F71241300966D7E /* CLPetLiveViewController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584A0B9B1F710532006BC776 /* CloudPets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A0BC81F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPets" */;
+			buildPhases = (
+				584A0B981F710532006BC776 /* Sources */,
+				584A0B991F710532006BC776 /* Frameworks */,
+				584A0B9A1F710532006BC776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudPets;
+			productName = CloudPets;
+			productReference = 584A0B9C1F710532006BC776 /* CloudPets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584A0BB31F710533006BC776 /* CloudPetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A0BCB1F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPetsTests" */;
+			buildPhases = (
+				584A0BB01F710533006BC776 /* Sources */,
+				584A0BB11F710533006BC776 /* Frameworks */,
+				584A0BB21F710533006BC776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584A0BB61F710533006BC776 /* PBXTargetDependency */,
+			);
+			name = CloudPetsTests;
+			productName = CloudPetsTests;
+			productReference = 584A0BB41F710533006BC776 /* CloudPetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		584A0BBE1F710533006BC776 /* CloudPetsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A0BCE1F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPetsUITests" */;
+			buildPhases = (
+				584A0BBB1F710533006BC776 /* Sources */,
+				584A0BBC1F710533006BC776 /* Frameworks */,
+				584A0BBD1F710533006BC776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584A0BC11F710533006BC776 /* PBXTargetDependency */,
+			);
+			name = CloudPetsUITests;
+			productName = CloudPetsUITests;
+			productReference = 584A0BBF1F710533006BC776 /* CloudPetsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584A0B941F710532006BC776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = icestraw;
+				TargetAttributes = {
+					584A0B9B1F710532006BC776 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					584A0BB31F710533006BC776 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584A0B9B1F710532006BC776;
+					};
+					584A0BBE1F710533006BC776 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584A0B9B1F710532006BC776;
+					};
+				};
+			};
+			buildConfigurationList = 584A0B971F710532006BC776 /* Build configuration list for PBXProject "CloudPets" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584A0B931F710532006BC776;
+			productRefGroup = 584A0B9D1F710532006BC776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584A0B9B1F710532006BC776 /* CloudPets */,
+				584A0BB31F710533006BC776 /* CloudPetsTests */,
+				584A0BBE1F710533006BC776 /* CloudPetsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584A0B9A1F710532006BC776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A0BAC1F710532006BC776 /* LaunchScreen.storyboard in Resources */,
+				584A0BA91F710532006BC776 /* Assets.xcassets in Resources */,
+				584A0BA71F710532006BC776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BB21F710533006BC776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BBD1F710533006BC776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584A0B981F710532006BC776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A0BA41F710532006BC776 /* ViewController.m in Sources */,
+				58B2FCF71F71241300966D7E /* CLPetLiveViewController.m in Sources */,
+				584A0BAF1F710532006BC776 /* main.m in Sources */,
+				584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */,
+				584A0BD51F7107D3006BC776 /* CLPPetListCollectionViewController.m in Sources */,
+				584A0BA11F710532006BC776 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BB01F710533006BC776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A0BB91F710533006BC776 /* CloudPetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A0BBB1F710533006BC776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A0BC41F710533006BC776 /* CloudPetsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584A0BB61F710533006BC776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584A0B9B1F710532006BC776 /* CloudPets */;
+			targetProxy = 584A0BB51F710533006BC776 /* PBXContainerItemProxy */;
+		};
+		584A0BC11F710533006BC776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584A0B9B1F710532006BC776 /* CloudPets */;
+			targetProxy = 584A0BC01F710533006BC776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584A0BA51F710532006BC776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584A0BA61F710532006BC776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584A0BAA1F710532006BC776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584A0BAB1F710532006BC776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584A0BC61F710533006BC776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		584A0BC71F710533006BC776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584A0BC91F710533006BC776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		584A0BCA1F710533006BC776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		584A0BCC1F710533006BC776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPets.app/CloudPets";
+			};
+			name = Debug;
+		};
+		584A0BCD1F710533006BC776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPetsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudPets.app/CloudPets";
+			};
+			name = Release;
+		};
+		584A0BCF1F710533006BC776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudPets;
+			};
+			name = Debug;
+		};
+		584A0BD01F710533006BC776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CloudPetsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPetsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudPets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584A0B971F710532006BC776 /* Build configuration list for PBXProject "CloudPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A0BC61F710533006BC776 /* Debug */,
+				584A0BC71F710533006BC776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584A0BC81F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A0BC91F710533006BC776 /* Debug */,
+				584A0BCA1F710533006BC776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584A0BCB1F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A0BCC1F710533006BC776 /* Debug */,
+				584A0BCD1F710533006BC776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584A0BCE1F710533006BC776 /* Build configuration list for PBXNativeTarget "CloudPetsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A0BCF1F710533006BC776 /* Debug */,
+				584A0BD01F710533006BC776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584A0B941F710532006BC776 /* Project object */;
+}
