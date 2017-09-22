@@ -87,6 +87,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546800711F752E8900CBA513 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				584A0BD21F7107A7006BC776 /* User */,
+				584A0BD11F71079A006BC776 /* Pets */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		546800721F752EB200CBA513 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		546800731F752ECA00CBA513 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		546800741F752ED600CBA513 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584A0B9F1F710532006BC776 /* AppDelegate.h */,
+				584A0BA01F710532006BC776 /* AppDelegate.m */,
+				584A0BA21F710532006BC776 /* ViewController.h */,
+				584A0BA31F710532006BC776 /* ViewController.m */,
+				584A0BA51F710532006BC776 /* Main.storyboard */,
+				584A0BA81F710532006BC776 /* Assets.xcassets */,
+				584A0BAA1F710532006BC776 /* LaunchScreen.storyboard */,
+				584A0BAD1F710532006BC776 /* Info.plist */,
+				584A0BAE1F710532006BC776 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		584A0B931F710532006BC776 = {
 			isa = PBXGroup;
 			children = (
@@ -110,17 +149,10 @@
 		584A0B9E1F710532006BC776 /* CloudPets */ = {
 			isa = PBXGroup;
 			children = (
-				584A0BD11F71079A006BC776 /* Pets */,
-				584A0BD21F7107A7006BC776 /* User */,
-				584A0B9F1F710532006BC776 /* AppDelegate.h */,
-				584A0BA01F710532006BC776 /* AppDelegate.m */,
-				584A0BA21F710532006BC776 /* ViewController.h */,
-				584A0BA31F710532006BC776 /* ViewController.m */,
-				584A0BA51F710532006BC776 /* Main.storyboard */,
-				584A0BA81F710532006BC776 /* Assets.xcassets */,
-				584A0BAA1F710532006BC776 /* LaunchScreen.storyboard */,
-				584A0BAD1F710532006BC776 /* Info.plist */,
-				584A0BAE1F710532006BC776 /* main.m */,
+				546800741F752ED600CBA513 /* Supporting Files */,
+				546800731F752ECA00CBA513 /* Global */,
+				546800721F752EB200CBA513 /* Framework */,
+				546800711F752E8900CBA513 /* Interface */,
 			);
 			path = CloudPets;
 			sourceTree = "<group>";
@@ -465,7 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CloudPets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,7 +510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CloudPets/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
