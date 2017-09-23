@@ -26,12 +26,69 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="yDl-1I-Z9F" id="bSu-EP-So1"/>
+                            </connections>
                         </searchBar>
                         <sections>
                             <tableViewSection id="tmy-u9-Sfi">
                                 <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="116" id="9oF-Pf-E5s">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="116"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9oF-Pf-E5s" id="tKj-lC-cIk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="115.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5HY-Vb-gyv">
+                                                    <rect key="frame" x="70" y="11" width="72" height="72"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="72" id="e4r-3E-IKv"/>
+                                                        <constraint firstAttribute="width" constant="72" id="q6x-Pe-3Rz"/>
+                                                    </constraints>
+                                                    <state key="normal" image="icon_live"/>
+                                                    <connections>
+                                                        <action selector="cameraButtonPressed:" destination="yDl-1I-Z9F" eventType="touchUpInside" id="af1-AW-B2M"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qoq-Oj-HtU">
+                                                    <rect key="frame" x="233" y="11" width="72" height="72"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="72" id="LWC-7r-5tG"/>
+                                                        <constraint firstAttribute="height" constant="72" id="ecI-m8-9TN"/>
+                                                    </constraints>
+                                                    <state key="normal" image="icon_photo"/>
+                                                    <connections>
+                                                        <action selector="albumButtonPressed:" destination="yDl-1I-Z9F" eventType="touchUpInside" id="COc-RX-QCi"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDQ-5X-5pS">
+                                                    <rect key="frame" x="81" y="86" width="50.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ct-XC-IbA">
+                                                    <rect key="frame" x="248.5" y="86" width="41.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Qoq-Oj-HtU" secondAttribute="trailing" constant="70" id="2s0-0K-uQZ"/>
+                                                <constraint firstItem="fDQ-5X-5pS" firstAttribute="top" secondItem="5HY-Vb-gyv" secondAttribute="bottom" constant="3" id="7Hr-Nl-2QB"/>
+                                                <constraint firstItem="fDQ-5X-5pS" firstAttribute="centerX" secondItem="5HY-Vb-gyv" secondAttribute="centerX" id="Dua-Jb-Azx"/>
+                                                <constraint firstItem="Qoq-Oj-HtU" firstAttribute="top" secondItem="tKj-lC-cIk" secondAttribute="top" constant="11" id="KEN-ox-ywP"/>
+                                                <constraint firstItem="9Ct-XC-IbA" firstAttribute="centerX" secondItem="Qoq-Oj-HtU" secondAttribute="centerX" id="Ygo-AH-akX"/>
+                                                <constraint firstItem="5HY-Vb-gyv" firstAttribute="leading" secondItem="tKj-lC-cIk" secondAttribute="leading" constant="70" id="aXu-MJ-T2t"/>
+                                                <constraint firstItem="9Ct-XC-IbA" firstAttribute="top" secondItem="Qoq-Oj-HtU" secondAttribute="bottom" constant="3" id="cWa-3U-JIs"/>
+                                                <constraint firstItem="5HY-Vb-gyv" firstAttribute="top" secondItem="tKj-lC-cIk" secondAttribute="top" constant="11" id="yHO-Ft-q67"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="274" id="PXA-GT-bcR">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="274"/>
+                                        <rect key="frame" x="0.0" y="160" width="375" height="274"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PXA-GT-bcR" id="kL5-vS-zha">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="273.5"/>
@@ -78,7 +135,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="138" id="fDB-Tk-DuH">
-                                        <rect key="frame" x="0.0" y="318" width="375" height="138"/>
+                                        <rect key="frame" x="0.0" y="434" width="375" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fDB-Tk-DuH" id="5mT-Ev-NhH">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
@@ -116,7 +173,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="138" id="tl5-k8-8VA">
-                                        <rect key="frame" x="0.0" y="456" width="375" height="138"/>
+                                        <rect key="frame" x="0.0" y="572" width="375" height="138"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tl5-k8-8VA" id="fQU-ZX-jAo">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
@@ -190,7 +247,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_文章记录" width="16" height="20"/>
+        <image name="icon_live" width="60" height="60"/>
+        <image name="icon_photo" width="60" height="60"/>
+        <image name="icon_文章记录" width="20" height="20"/>
         <image name="mao5" width="1024" height="756"/>
         <image name="social" width="370" height="70"/>
     </resources>

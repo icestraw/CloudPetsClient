@@ -25,11 +25,11 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.tabBarController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(menuItemDidPressed:)];
+//    self.tabBarController.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(menuItemDidPressed:)];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
-    self.tabBarController.navigationItem.rightBarButtonItem = nil;
+//    self.tabBarController.navigationItem.rightBarButtonItem = nil;
     
     [super viewDidDisappear:animated];
 }
@@ -74,11 +74,32 @@
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+    [self.searchBar resignFirstResponder];
     [self gotoResultUsingText:searchBar.text];
 }
 
 - (void)gotoResultUsingText:(NSString *)text {
     [self performSegueWithIdentifier:@"article" sender:nil];
+}
+
+- (IBAction)cameraButtonPressed:(id)sender {
+    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+    ipc.delegate = self;
+    
+    ipc.sourceType = UIImagePickerControllerSourceTypeCamera;
+    [self presentViewController:ipc animated:YES completion:^{
+        
+    }];
+}
+
+- (IBAction)albumButtonPressed:(id)sender {
+    UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
+    ipc.delegate = self;
+    
+    ipc.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+    [self presentViewController:ipc animated:YES completion:^{
+        
+    }];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
