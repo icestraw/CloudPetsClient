@@ -72,9 +72,6 @@
      CLPFollowImageTableViewCell *imageCell = [tableView dequeueReusableCellWithIdentifier:@"CLPFollowImageTableViewCell"];
      NSString *headImage = item[@"head"];
      NSString *nickName = item[@"nickname"];
-
-
- 
     if ([item[@"type"] isEqualToNumber:@1]) {
         if (videoCell == nil) {
             videoCell = [[CLPFollowVideoTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CLPFollowVideoTableViewCell"];
@@ -85,9 +82,6 @@
         videoCell.timeLabel.text = @"17:12";
         videoCell.contentLabel.text = @"My cat is very naughty";
         
-        AVPlayerItem *playerItem=[self getPlayItem:item[@"display"]];
-        self.player=[AVPlayer playerWithPlayerItem:playerItem];
-        [self addObserverToPlayerItem:playerItem];
         AVPlayerLayer *playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
         playerLayer.frame = videoCell.videoImage.bounds;
         playerLayer.videoGravity=AVLayerVideoGravityResizeAspectFill;//视频填充模式
@@ -97,11 +91,6 @@
         [videoCell.playButton addTarget:self action:@selector(actionPlayButton:) forControlEvents:UIControlEventTouchUpInside];
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionSelectedVideo:)];
         [videoCell.videoImage addGestureRecognizer:tap];
-        
-    
-
-        
-        
         return videoCell;
     }else{
         if (imageCell == nil) {
@@ -166,14 +155,14 @@
  *
  *  @return 播放器对象
  */
-//-(AVPlayer *)player{
-//    if (!_player) {
-//        AVPlayerItem *playerItem=[self getPlayItem:0];
-//        _player=[AVPlayer playerWithPlayerItem:playerItem];
-//        [self addObserverToPlayerItem:playerItem];
-//    }
-//    return _player;
-//}
+-(AVPlayer *)player{
+    if (!_player) {
+        AVPlayerItem *playerItem=[self getPlayItem:0];
+        _player=[AVPlayer playerWithPlayerItem:playerItem];
+        [self addObserverToPlayerItem:playerItem];
+    }
+    return _player;
+}
 
 /**
  *  根据视频索引取得AVPlayerItem对象
