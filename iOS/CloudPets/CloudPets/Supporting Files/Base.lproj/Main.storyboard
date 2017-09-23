@@ -37,6 +37,46 @@
             </objects>
             <point key="canvasLocation" x="897" y="373"/>
         </scene>
+        <!--CLPFollow-->
+        <scene sceneID="Auh-lG-GbK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CLPFollow" id="bZb-BR-d5h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="28k-me-a81"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B6o-pQ-9XZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-548" y="705"/>
+        </scene>
+        <!--CLPPublish-->
+        <scene sceneID="UnF-bt-PdI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CLPPublish" id="9DH-zs-aHn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="b1J-Ap-fm2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ss6-cJ-1gO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242" y="853"/>
+        </scene>
+        <!--CLPPetHome-->
+        <scene sceneID="gGh-6g-mbq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CLPPetHome" id="22A-fF-K0f" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BQb-Iz-2nV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AXi-Q0-8aW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="958"/>
+        </scene>
+        <!--CLPUser-->
+        <scene sceneID="bji-Kf-5de">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CLPUser" id="Xb8-Ni-K1N" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="LnM-37-nkT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ky-1B-cRc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="721" y="1152"/>
+        </scene>
         <!--云卖宠-->
         <scene sceneID="lVw-A7-yJs">
             <objects>
@@ -46,45 +86,45 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3255" translatesAutoresizingMaskIntoConstraints="NO" id="J8E-Vf-ExK">
-                                <rect key="frame" x="0.0" y="137" width="375" height="217.5"/>
+                                <rect key="frame" x="0.0" y="93" width="375" height="217.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="J8E-Vf-ExK" secondAttribute="height" multiplier="157:91" id="u7M-rv-5Ks"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="录像中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9OU-rV-b2r">
-                                <rect key="frame" x="31" y="102" width="66" height="21"/>
+                                <rect key="frame" x="31" y="58" width="66" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSJ-Tt-nPh">
-                                <rect key="frame" x="66" y="404" width="66" height="30"/>
+                                <rect key="frame" x="66" y="360" width="66" height="30"/>
                                 <state key="normal" title="开始/暂停"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exw-y0-JSK">
-                                <rect key="frame" x="211" y="404" width="92" height="30"/>
+                                <rect key="frame" x="211" y="360" width="92" height="30"/>
                                 <state key="normal" title="连接控制设备"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="当前命令列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sJ-Me-Lcg">
-                                <rect key="frame" x="31" y="466" width="104" height="21"/>
+                                <rect key="frame" x="31" y="422" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="激光笔向左" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VA0-er-r90">
-                                <rect key="frame" x="62" y="506" width="87" height="21"/>
+                                <rect key="frame" x="62" y="462" width="87" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="给猫喂点食吧！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0F-ry-zEm">
-                                <rect key="frame" x="62" y="535" width="122" height="21"/>
+                                <rect key="frame" x="62" y="491" width="122" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="（语音消息）..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5b-Xe-CT6">
-                                <rect key="frame" x="53" y="564" width="118" height="21"/>
+                                <rect key="frame" x="53" y="520" width="118" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -150,7 +190,7 @@
                             <outlet property="delegate" destination="4Qq-RY-wHJ" id="WQw-nA-JSf"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="云养宠" id="gbD-Eq-R53"/>
+                    <tabBarItem key="tabBarItem" title="首页" id="gbD-Eq-R53"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAd-Cy-Cds" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -336,7 +376,10 @@
                     </tabBar>
                     <connections>
                         <segue destination="4Qq-RY-wHJ" kind="relationship" relationship="viewControllers" id="JqJ-fw-mwQ"/>
-                        <segue destination="Zgf-ct-cBw" kind="relationship" relationship="viewControllers" id="CxG-Aw-6cf"/>
+                        <segue destination="bZb-BR-d5h" kind="relationship" relationship="viewControllers" id="TnR-UL-n6k"/>
+                        <segue destination="9DH-zs-aHn" kind="relationship" relationship="viewControllers" id="Ogb-Xf-cXK"/>
+                        <segue destination="22A-fF-K0f" kind="relationship" relationship="viewControllers" id="44h-dr-mud"/>
+                        <segue destination="Xb8-Ni-K1N" kind="relationship" relationship="viewControllers" id="pjv-VY-ixS"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B39-V8-pvp" userLabel="First Responder" sceneMemberID="firstResponder"/>

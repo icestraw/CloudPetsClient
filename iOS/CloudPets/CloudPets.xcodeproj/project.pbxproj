@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */; };
+		54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E91F7605440027EA3A /* CLPFollow.storyboard */; };
+		54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */; };
+		54CD26EE1F7605710027EA3A /* CLPUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26ED1F7605710027EA3A /* CLPUser.storyboard */; };
 		584A0BA11F710532006BC776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA01F710532006BC776 /* AppDelegate.m */; };
 		584A0BA41F710532006BC776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA31F710532006BC776 /* ViewController.m */; };
 		584A0BA71F710532006BC776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA51F710532006BC776 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPetHome.storyboard; sourceTree = "<group>"; };
+		54CD26E91F7605440027EA3A /* CLPFollow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPFollow.storyboard; sourceTree = "<group>"; };
+		54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPublish.storyboard; sourceTree = "<group>"; };
+		54CD26ED1F7605710027EA3A /* CLPUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPUser.storyboard; sourceTree = "<group>"; };
 		584A0B9C1F710532006BC776 /* CloudPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A0B9F1F710532006BC776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		584A0BA01F710532006BC776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +98,9 @@
 		546800711F752E8900CBA513 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				54CD26E61F7604EC0027EA3A /* PetHome */,
+				54CD26E51F7603DC0027EA3A /* Follow */,
+				54CD26E41F7603C90027EA3A /* Publish */,
 				584A0BD21F7107A7006BC776 /* User */,
 				584A0BD11F71079A006BC776 /* Pets */,
 			);
@@ -124,6 +135,30 @@
 				584A0BAE1F710532006BC776 /* main.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54CD26E41F7603C90027EA3A /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		54CD26E51F7603DC0027EA3A /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				54CD26E91F7605440027EA3A /* CLPFollow.storyboard */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		54CD26E61F7604EC0027EA3A /* PetHome */ = {
+			isa = PBXGroup;
+			children = (
+				54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */,
+			);
+			path = PetHome;
 			sourceTree = "<group>";
 		};
 		584A0B931F710532006BC776 = {
@@ -191,6 +226,7 @@
 			children = (
 				58B2FCF51F71241300966D7E /* CLPetLiveViewController.h */,
 				58B2FCF61F71241300966D7E /* CLPetLiveViewController.m */,
+				54CD26ED1F7605710027EA3A /* CLPUser.storyboard */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -301,8 +337,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */,
 				584A0BAC1F710532006BC776 /* LaunchScreen.storyboard in Resources */,
+				54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */,
+				54CD26EE1F7605710027EA3A /* CLPUser.storyboard in Resources */,
 				584A0BA91F710532006BC776 /* Assets.xcassets in Resources */,
+				54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */,
 				584A0BA71F710532006BC776 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
