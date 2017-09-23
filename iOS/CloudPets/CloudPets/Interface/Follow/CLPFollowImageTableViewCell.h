@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface CLPFollowImageTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *petImageView;
 
-@property (weak, nonatomic) IBOutlet UIView *petImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *headImageView;
 
 @property (weak, nonatomic) IBOutlet UILabel *nickNameLabel;
 @property (weak, nonatomic) IBOutlet UIScrollView *petImageScrollView;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
 
 @end
