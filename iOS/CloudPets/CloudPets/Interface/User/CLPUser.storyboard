@@ -12,7 +12,7 @@
         <!--Mine-->
         <scene sceneID="oMI-Yu-baM">
             <objects>
-                <viewController id="IwW-UC-MdL" sceneMemberID="viewController">
+                <viewController id="IwW-UC-MdL" customClass="CLPetLiveViewController" sceneMemberID="viewController">
                     <view key="view" tag="1" contentMode="scaleToFill" id="cqE-Pk-vx5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

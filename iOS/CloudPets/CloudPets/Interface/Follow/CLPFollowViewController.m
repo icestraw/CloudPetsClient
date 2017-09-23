@@ -35,6 +35,7 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"CLPFollowVideoTableViewCell" bundle:nil] forCellReuseIdentifier:@"CLPFollowVideoTableViewCell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"CLPFollowImageTableViewCell" bundle:nil] forCellReuseIdentifier:@"CLPFollowImageTableViewCell"];
     
+    self.tabBarController.title = @"Follow";
 
     
     [self.view addSubview:self.tableView];
