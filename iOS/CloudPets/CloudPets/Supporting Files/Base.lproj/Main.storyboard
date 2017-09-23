@@ -160,7 +160,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="tGL-bT-tZK">
             <objects>
-                <tabBarController id="zmP-ME-7nR" sceneMemberID="viewController">
+                <tabBarController id="zmP-ME-7nR" customClass="CLPTabBarController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="R3z-Hc-ncd"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uIf-7h-gVY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
