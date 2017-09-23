@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,7 +17,37 @@
                     <view key="view" contentMode="scaleToFill" id="cqE-Pk-vx5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Akx-y0-sV6">
+                                <rect key="frame" x="20" y="60" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="BnQ-e8-rvM"/>
+                                    <constraint firstAttribute="width" constant="100" id="HqG-sO-sSo"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5P-bV-9ee">
+                                <rect key="frame" x="140" y="114.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a30-UX-0tR">
+                                <rect key="frame" x="140" y="88.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a30-UX-0tR" firstAttribute="centerY" secondItem="Akx-y0-sV6" secondAttribute="centerY" multiplier="0.9" id="3Ba-nv-mvv"/>
+                            <constraint firstItem="a30-UX-0tR" firstAttribute="leading" secondItem="Akx-y0-sV6" secondAttribute="trailing" constant="20" id="BKq-x7-Qec"/>
+                            <constraint firstItem="x5P-bV-9ee" firstAttribute="leading" secondItem="Akx-y0-sV6" secondAttribute="trailing" constant="20" id="M9s-cb-1E7"/>
+                            <constraint firstItem="x5P-bV-9ee" firstAttribute="top" secondItem="a30-UX-0tR" secondAttribute="bottom" constant="5" id="PFU-cT-xLs"/>
+                            <constraint firstItem="x5P-bV-9ee" firstAttribute="top" secondItem="a30-UX-0tR" secondAttribute="bottom" constant="5" id="fW8-g0-a8n"/>
+                            <constraint firstItem="Akx-y0-sV6" firstAttribute="top" secondItem="1oz-gb-qBb" secondAttribute="top" constant="40" id="m76-K2-5Wj"/>
+                            <constraint firstItem="Akx-y0-sV6" firstAttribute="leading" secondItem="1oz-gb-qBb" secondAttribute="leading" constant="20" id="nzB-E3-24u"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1oz-gb-qBb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="个人" id="alS-y0-xSt"/>
@@ -24,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSD-qi-UE7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158" y="125"/>
+            <point key="canvasLocation" x="157.59999999999999" y="124.58770614692655"/>
         </scene>
     </scenes>
 </document>
