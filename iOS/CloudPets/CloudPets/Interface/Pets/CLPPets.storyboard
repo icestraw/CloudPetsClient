@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -53,7 +52,7 @@
         <scene sceneID="iLs-pw-1WM">
             <objects>
                 <tableViewController title="萌宠展厅" id="yh4-hu-NWp" customClass="CLPPetShowcaseTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3aL-j7-BzI">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3aL-j7-BzI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -64,25 +63,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rai-Cg-BmM" id="AyH-4J-3xt">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3255" translatesAutoresizingMaskIntoConstraints="NO" id="i0u-Mv-zHR">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="242"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播中..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptO-io-FHh">
-                                            <rect key="frame" x="17" y="8" width="66" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstItem="ptO-io-FHh" firstAttribute="leading" secondItem="AyH-4J-3xt" secondAttribute="leading" constant="17" id="DEo-qV-5I9"/>
-                                        <constraint firstItem="ptO-io-FHh" firstAttribute="top" secondItem="AyH-4J-3xt" secondAttribute="top" constant="8" id="Vwn-FC-qcQ"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="i0u-Mv-zHR" secondAttribute="bottom" constant="-0.5" id="gGh-Cw-6iZ"/>
-                                        <constraint firstAttribute="trailing" secondItem="i0u-Mv-zHR" secondAttribute="trailing" id="nQb-Nx-tpG"/>
-                                        <constraint firstItem="i0u-Mv-zHR" firstAttribute="leading" secondItem="AyH-4J-3xt" secondAttribute="leading" id="rq1-UC-d5o"/>
-                                        <constraint firstItem="i0u-Mv-zHR" firstAttribute="top" secondItem="AyH-4J-3xt" secondAttribute="top" id="zlZ-K0-YCc"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="controller" rowHeight="100" id="yyM-xw-HKr">
@@ -217,9 +197,16 @@
             </objects>
             <point key="canvasLocation" x="1741.5999999999999" y="-288.30584707646182"/>
         </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="1dV-nA-goN">
+            <objects>
+                <avPlayerViewController storyboardIdentifier="CLPPetsVideoPlayerViewController" showsPlaybackControls="NO" videoGravity="AVLayerVideoGravityResizeAspect" id="AMS-pr-NVT" customClass="CLPPetsVideoPlayerViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WYT-Ud-5Pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2649" y="-288"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="IMG_3255" width="3024" height="4032"/>
         <image name="IMG_5412" width="3024" height="4032"/>
         <image name="IMG_8002" width="3024" height="4032"/>
         <image name="IMG_9475" width="2320" height="3088"/>

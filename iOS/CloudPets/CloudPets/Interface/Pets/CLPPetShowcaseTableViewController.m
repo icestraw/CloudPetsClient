@@ -18,6 +18,8 @@ typedef enum : NSUInteger {
 
 @interface CLPPetShowcaseTableViewController ()
 
+@property (strong, nonatomic) UIViewController *avPlayerController;
+
 @end
 
 @implementation CLPPetShowcaseTableViewController
@@ -30,6 +32,8 @@ typedef enum : NSUInteger {
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    _avPlayerController = [[UIStoryboard storyboardWithName:@"CLPPets" bundle:nil] instantiateViewControllerWithIdentifier:@"CLPPetsVideoPlayerViewController"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -91,6 +95,11 @@ typedef enum : NSUInteger {
     switch (s) {
         case CLPPetShowcaseTableViewSectionVideo:
             cell = [tableView dequeueReusableCellWithIdentifier:@"video" forIndexPath:indexPath];
+            if (![cell.contentView.subviews containsObject:self.avPlayerController.view]) {
+                [cell.contentView addSubview:self.avPlayerController.view];
+                CGRect r = [UIScreen mainScreen].bounds;
+                self.avPlayerController.view.frame = CGRectMake(0, 0, r.size.width, 250);
+            }
             break;
         case CLPPetShowcaseTableViewSectionController:
             cell = [tableView dequeueReusableCellWithIdentifier:@"controller" forIndexPath:indexPath];

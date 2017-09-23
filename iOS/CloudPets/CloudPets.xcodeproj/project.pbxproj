@@ -11,8 +11,10 @@
 		54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E91F7605440027EA3A /* CLPFollow.storyboard */; };
 		54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */; };
 		54CD26EE1F7605710027EA3A /* CLPUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26ED1F7605710027EA3A /* CLPUser.storyboard */; };
-		5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD01F760938004BBFB0 /* CLPPets.storyboard */; };
 		54CD26F11F76072F0027EA3A /* CLPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */; };
+		5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD01F760938004BBFB0 /* CLPPets.storyboard */; };
+		5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */; };
+		5827FCD61F762F35004BBFB0 /* IMG_5324.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */; };
 		584A0BA11F710532006BC776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA01F710532006BC776 /* AppDelegate.m */; };
 		584A0BA41F710532006BC776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA31F710532006BC776 /* ViewController.m */; };
 		584A0BA71F710532006BC776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA51F710532006BC776 /* Main.storyboard */; };
@@ -48,9 +50,12 @@
 		54CD26E91F7605440027EA3A /* CLPFollow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPFollow.storyboard; sourceTree = "<group>"; };
 		54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPublish.storyboard; sourceTree = "<group>"; };
 		54CD26ED1F7605710027EA3A /* CLPUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPUser.storyboard; sourceTree = "<group>"; };
-		5827FCD01F760938004BBFB0 /* CLPPets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPets.storyboard; sourceTree = "<group>"; };
 		54CD26EF1F76072F0027EA3A /* CLPFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPFollowViewController.h; sourceTree = "<group>"; };
 		54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPFollowViewController.m; sourceTree = "<group>"; };
+		5827FCD01F760938004BBFB0 /* CLPPets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPets.storyboard; sourceTree = "<group>"; };
+		5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5324.mov; sourceTree = "<group>"; };
+		5827FCD31F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetsVideoPlayerViewController.h; sourceTree = "<group>"; };
+		5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetsVideoPlayerViewController.m; sourceTree = "<group>"; };
 		584A0B9C1F710532006BC776 /* CloudPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A0B9F1F710532006BC776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		584A0BA01F710532006BC776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +134,7 @@
 		546800741F752ED600CBA513 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */,
 				584A0B9F1F710532006BC776 /* AppDelegate.h */,
 				584A0BA01F710532006BC776 /* AppDelegate.m */,
 				584A0BA21F710532006BC776 /* ViewController.h */,
@@ -224,6 +230,8 @@
 				584A0BD41F7107D3006BC776 /* CLPPetListCollectionViewController.m */,
 				584A0BD91F710DD5006BC776 /* CLPPetShowcaseTableViewController.h */,
 				584A0BDA1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m */,
+				5827FCD31F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.h */,
+				5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */,
 				5827FCD01F760938004BBFB0 /* CLPPets.storyboard */,
 			);
 			path = Pets;
@@ -345,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5827FCD61F762F35004BBFB0 /* IMG_5324.mov in Resources */,
 				54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */,
 				584A0BAC1F710532006BC776 /* LaunchScreen.storyboard in Resources */,
 				54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */,
@@ -384,6 +393,7 @@
 				584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */,
 				584A0BD51F7107D3006BC776 /* CLPPetListCollectionViewController.m in Sources */,
 				584A0BA11F710532006BC776 /* AppDelegate.m in Sources */,
+				5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +557,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96K5LYU486;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
@@ -560,6 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96K5LYU486;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
