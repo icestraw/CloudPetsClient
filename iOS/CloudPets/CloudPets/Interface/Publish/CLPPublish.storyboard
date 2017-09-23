@@ -9,20 +9,48 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--发布-->
         <scene sceneID="zgZ-HO-imP">
             <objects>
                 <viewController id="Rtx-jn-haF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a0x-Wr-2o3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyj-SR-o2O">
+                                <rect key="frame" x="64" y="93" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="rxd-Co-7ei" kind="push" id="DbO-QH-aYX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Vop-Nh-7aT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="发布" id="qhP-Py-xwY"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXm-tn-g5L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="326" y="-147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hgN-jP-wEI">
+            <objects>
+                <viewController id="rxd-Co-7ei" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CX1-Qj-MEp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BfR-3s-Jdu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WUJ-gZ-35b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qn0-gP-wHF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="-147"/>
         </scene>
     </scenes>
 </document>

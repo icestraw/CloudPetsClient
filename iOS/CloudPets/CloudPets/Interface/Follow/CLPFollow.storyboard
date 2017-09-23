@@ -9,16 +9,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--关注-->
         <scene sceneID="ZIw-MO-aYt">
             <objects>
-                <viewController id="b4R-0O-QYQ" sceneMemberID="viewController">
+                <viewController id="b4R-0O-QYQ" customClass="CLPFollowViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5VW-pX-VNZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="2Cp-sW-1r2"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="关注" id="Q8b-jb-f8C"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxs-l7-e0b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

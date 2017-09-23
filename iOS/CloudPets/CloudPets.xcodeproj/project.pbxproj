@@ -11,6 +11,7 @@
 		54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E91F7605440027EA3A /* CLPFollow.storyboard */; };
 		54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */; };
 		54CD26EE1F7605710027EA3A /* CLPUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26ED1F7605710027EA3A /* CLPUser.storyboard */; };
+		54CD26F11F76072F0027EA3A /* CLPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */; };
 		584A0BA11F710532006BC776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA01F710532006BC776 /* AppDelegate.m */; };
 		584A0BA41F710532006BC776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA31F710532006BC776 /* ViewController.m */; };
 		584A0BA71F710532006BC776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA51F710532006BC776 /* Main.storyboard */; };
@@ -46,6 +47,8 @@
 		54CD26E91F7605440027EA3A /* CLPFollow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPFollow.storyboard; sourceTree = "<group>"; };
 		54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPublish.storyboard; sourceTree = "<group>"; };
 		54CD26ED1F7605710027EA3A /* CLPUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPUser.storyboard; sourceTree = "<group>"; };
+		54CD26EF1F76072F0027EA3A /* CLPFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPFollowViewController.h; sourceTree = "<group>"; };
+		54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPFollowViewController.m; sourceTree = "<group>"; };
 		584A0B9C1F710532006BC776 /* CloudPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A0B9F1F710532006BC776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		584A0BA01F710532006BC776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				54CD26E91F7605440027EA3A /* CLPFollow.storyboard */,
+				54CD26EF1F76072F0027EA3A /* CLPFollowViewController.h */,
+				54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584A0BA41F710532006BC776 /* ViewController.m in Sources */,
+				54CD26F11F76072F0027EA3A /* CLPFollowViewController.m in Sources */,
 				58B2FCF71F71241300966D7E /* CLPetLiveViewController.m in Sources */,
 				584A0BAF1F710532006BC776 /* main.m in Sources */,
 				584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */,
