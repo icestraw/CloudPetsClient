@@ -46,6 +46,7 @@
 		5827FCEA1F768E9C004BBFB0 /* CLPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCE91F768E9C004BBFB0 /* CLPTabBarController.m */; };
 		5827FCEF1F7694EE004BBFB0 /* CLPPublishPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCEE1F7694EE004BBFB0 /* CLPPublishPopupViewController.m */; };
 		5827FCF21F7697DE004BBFB0 /* CLPPublishPopupBackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCF11F7697DE004BBFB0 /* CLPPublishPopupBackgroundViewController.m */; };
+		5827FCF51F76A429004BBFB0 /* CLPPetHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCF41F76A429004BBFB0 /* CLPPetHomeViewController.m */; };
 		584A0BA11F710532006BC776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA01F710532006BC776 /* AppDelegate.m */; };
 		584A0BA41F710532006BC776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A0BA31F710532006BC776 /* ViewController.m */; };
 		584A0BA91F710532006BC776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584A0BA81F710532006BC776 /* Assets.xcassets */; };
@@ -137,6 +138,8 @@
 		5827FCEE1F7694EE004BBFB0 /* CLPPublishPopupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPublishPopupViewController.m; sourceTree = "<group>"; };
 		5827FCF01F7697DE004BBFB0 /* CLPPublishPopupBackgroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPublishPopupBackgroundViewController.h; sourceTree = "<group>"; };
 		5827FCF11F7697DE004BBFB0 /* CLPPublishPopupBackgroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPublishPopupBackgroundViewController.m; sourceTree = "<group>"; };
+		5827FCF31F76A429004BBFB0 /* CLPPetHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetHomeViewController.h; sourceTree = "<group>"; };
+		5827FCF41F76A429004BBFB0 /* CLPPetHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetHomeViewController.m; sourceTree = "<group>"; };
 		584A0B9C1F710532006BC776 /* CloudPets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudPets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		584A0B9F1F710532006BC776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		584A0BA01F710532006BC776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 			isa = PBXGroup;
 			children = (
 				54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */,
+				5827FCF31F76A429004BBFB0 /* CLPPetHomeViewController.h */,
+				5827FCF41F76A429004BBFB0 /* CLPPetHomeViewController.m */,
 			);
 			path = PetHome;
 			sourceTree = "<group>";
@@ -576,6 +581,7 @@
 				584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */,
 				584A0BD51F7107D3006BC776 /* CLPPetListCollectionViewController.m in Sources */,
 				584A0BA11F710532006BC776 /* AppDelegate.m in Sources */,
+				5827FCF51F76A429004BBFB0 /* CLPPetHomeViewController.m in Sources */,
 				5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */,
 				5827FCEA1F768E9C004BBFB0 /* CLPTabBarController.m in Sources */,
 			);
