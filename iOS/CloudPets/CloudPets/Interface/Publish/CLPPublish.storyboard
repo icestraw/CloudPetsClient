@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--发布-->
+        <!--Publish-->
         <scene sceneID="zgZ-HO-imP">
             <objects>
                 <viewController id="Rtx-jn-haF" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Vop-Nh-7aT"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发布" id="qhP-Py-xwY"/>
+                    <tabBarItem key="tabBarItem" title="Publish" image="icon_发布" id="qhP-Py-xwY"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXm-tn-g5L" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -53,4 +53,7 @@
             <point key="canvasLocation" x="1137" y="-147"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_发布" width="35" height="35"/>
+    </resources>
 </document>
