@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3kH-Kl-rdS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
@@ -16,7 +15,6 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="nnT-iK-wOa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AR0-7i-LRe">
                             <size key="itemSize" width="50" height="50"/>
@@ -86,7 +84,7 @@
                             <outlet property="delegate" destination="3kH-Kl-rdS" id="gDf-Ne-dmC"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Home" id="9Fc-6N-m7U"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icon_主页" id="9Fc-6N-m7U"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gq1-Cx-ie0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,10 +248,10 @@
             <point key="canvasLocation" x="2649" y="-288"/>
         </scene>
     </scenes>
-
     <resources>
         <image name="IMG_5412" width="3024" height="4032"/>
         <image name="IMG_8002" width="3024" height="4032"/>
         <image name="IMG_9475" width="2320" height="3088"/>
+        <image name="icon_主页" width="20" height="20"/>
     </resources>
 </document>

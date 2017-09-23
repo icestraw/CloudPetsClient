@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DiX-A6-wp0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Article History" id="dtp-nH-eY9"/>
+                    <tabBarItem key="tabBarItem" title="Article History" image="icon_文章记录" id="dtp-nH-eY9"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXP-lh-e2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -27,4 +27,7 @@
             <point key="canvasLocation" x="-431" y="-245"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_文章记录" width="16" height="20"/>
+    </resources>
 </document>
