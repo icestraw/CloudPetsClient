@@ -39,7 +39,7 @@ typedef enum : NSUInteger {
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.title = @"呆呆的展厅";
+    self.title = @"Daidai's showcase";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -94,11 +94,17 @@ typedef enum : NSUInteger {
     CLPPetShowcaseTableViewSection s = indexPath.section;
     switch (s) {
         case CLPPetShowcaseTableViewSectionVideo:
-            cell = [tableView dequeueReusableCellWithIdentifier:@"video" forIndexPath:indexPath];
-            if (![cell.contentView.subviews containsObject:self.avPlayerController.view]) {
-                [cell.contentView addSubview:self.avPlayerController.view];
-                CGRect r = [UIScreen mainScreen].bounds;
-                self.avPlayerController.view.frame = CGRectMake(0, 0, r.size.width, 250);
+            {
+                cell = [tableView dequeueReusableCellWithIdentifier:@"video" forIndexPath:indexPath];
+                if (![cell.subviews containsObject:self.avPlayerController.view]) {
+                    [cell addSubview:self.avPlayerController.view];
+                    CGRect r = [UIScreen mainScreen].bounds;
+                    self.avPlayerController.view.frame = CGRectMake(0, 0, r.size.width, 250);
+                    [cell sendSubviewToBack:self.avPlayerController.view];
+                }
+                UIView *view = [cell viewWithTag:100];
+                [cell bringSubviewToFront:view];
+                view.layer.cornerRadius = 5;
             }
             break;
         case CLPPetShowcaseTableViewSectionController:

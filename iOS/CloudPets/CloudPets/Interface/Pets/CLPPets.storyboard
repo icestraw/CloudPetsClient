@@ -105,6 +105,30 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rai-Cg-BmM" id="AyH-4J-3xt">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="249.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cYW-rL-GbX">
+                                            <rect key="frame" x="8" y="8" width="50" height="25"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LIVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="br0-9H-7rX">
+                                                    <rect key="frame" x="8" y="2" width="34.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.93806670984455964" green="0.24938975737988536" blue="0.24843165075341511" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="50" id="51Y-bl-Rpn"/>
+                                                <constraint firstAttribute="height" constant="25" id="HP6-6L-Psh"/>
+                                                <constraint firstItem="br0-9H-7rX" firstAttribute="centerX" secondItem="cYW-rL-GbX" secondAttribute="centerX" id="IGD-Od-Ald"/>
+                                                <constraint firstItem="br0-9H-7rX" firstAttribute="centerY" secondItem="cYW-rL-GbX" secondAttribute="centerY" id="iPm-s1-gZ0"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="cYW-rL-GbX" firstAttribute="top" secondItem="AyH-4J-3xt" secondAttribute="top" constant="8" id="nFk-ye-oSy"/>
+                                        <constraint firstItem="cYW-rL-GbX" firstAttribute="leading" secondItem="AyH-4J-3xt" secondAttribute="leading" constant="8" id="w7f-88-bV8"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="controller" rowHeight="100" id="yyM-xw-HKr">
