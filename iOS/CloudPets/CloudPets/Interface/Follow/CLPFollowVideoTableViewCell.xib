@@ -109,8 +109,8 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pqc-p6-bIJ">
-                        <rect key="frame" x="55" y="97" width="442" height="200"/>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pqc-p6-bIJ">
+                        <rect key="frame" x="55" y="100" width="442" height="200"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T3-aF-AJy">
                                 <rect key="frame" x="191" y="70" width="60" height="60"/>
@@ -121,7 +121,6 @@
                                 <state key="normal" title="Button" image="player_start"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2T3-aF-AJy" firstAttribute="centerY" secondItem="Pqc-p6-bIJ" secondAttribute="centerY" id="F2d-5F-jJL"/>
                             <constraint firstAttribute="height" constant="200" id="Oun-XK-gM8"/>
@@ -161,6 +160,7 @@
                 <outlet property="contentLabel" destination="Xpy-1I-fKR" id="DPA-SW-exr"/>
                 <outlet property="headImageView" destination="LcL-Kd-A7J" id="WAL-Mc-D04"/>
                 <outlet property="nickNameLabel" destination="YSV-xL-DaA" id="WZt-fn-WkQ"/>
+                <outlet property="playButton" destination="2T3-aF-AJy" id="cXH-FW-VEs"/>
                 <outlet property="timeLabel" destination="5Ej-uM-q3j" id="Iwe-bU-q2z"/>
                 <outlet property="videoImage" destination="Pqc-p6-bIJ" id="5XJ-aN-1Hl"/>
             </connections>

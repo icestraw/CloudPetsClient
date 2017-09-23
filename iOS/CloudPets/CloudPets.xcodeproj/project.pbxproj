@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541B1AA61F769638009F8B65 /* petvideo4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 541B1AA21F769638009F8B65 /* petvideo4.mp4 */; };
+		541B1AA71F769638009F8B65 /* petvideo3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 541B1AA31F769638009F8B65 /* petvideo3.mp4 */; };
+		541B1AA81F769638009F8B65 /* petvideo1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 541B1AA41F769638009F8B65 /* petvideo1.mp4 */; };
+		541B1AA91F769638009F8B65 /* petvideo2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 541B1AA51F769638009F8B65 /* petvideo2.mp4 */; };
 		54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */; };
 		54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E91F7605440027EA3A /* CLPFollow.storyboard */; };
 		54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */; };
@@ -16,8 +20,6 @@
 		54CD26F61F7609A20027EA3A /* CLPFollowVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26F41F7609A20027EA3A /* CLPFollowVideoTableViewCell.xib */; };
 		54CD26FA1F7609E10027EA3A /* CLPFollowImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD26F81F7609E10027EA3A /* CLPFollowImageTableViewCell.m */; };
 		54CD26FB1F7609E10027EA3A /* CLPFollowImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26F91F7609E10027EA3A /* CLPFollowImageTableViewCell.xib */; };
-		54F6A54F1F76578A0033A3C2 /* CLPPets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F6A54E1F76578A0033A3C2 /* CLPPets.storyboard */; };
-
 		5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD01F760938004BBFB0 /* CLPPets.storyboard */; };
 		5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */; };
 		5827FCD61F762F35004BBFB0 /* IMG_5324.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */; };
@@ -54,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		541B1AA21F769638009F8B65 /* petvideo4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = petvideo4.mp4; sourceTree = "<group>"; };
+		541B1AA31F769638009F8B65 /* petvideo3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = petvideo3.mp4; sourceTree = "<group>"; };
+		541B1AA41F769638009F8B65 /* petvideo1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = petvideo1.mp4; sourceTree = "<group>"; };
+		541B1AA51F769638009F8B65 /* petvideo2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = petvideo2.mp4; sourceTree = "<group>"; };
 		54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPetHome.storyboard; sourceTree = "<group>"; };
 		54CD26E91F7605440027EA3A /* CLPFollow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPFollow.storyboard; sourceTree = "<group>"; };
 		54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPublish.storyboard; sourceTree = "<group>"; };
@@ -66,11 +72,6 @@
 		54CD26F71F7609E10027EA3A /* CLPFollowImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPFollowImageTableViewCell.h; sourceTree = "<group>"; };
 		54CD26F81F7609E10027EA3A /* CLPFollowImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPFollowImageTableViewCell.m; sourceTree = "<group>"; };
 		54CD26F91F7609E10027EA3A /* CLPFollowImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLPFollowImageTableViewCell.xib; sourceTree = "<group>"; };
-		54F6A54E1F76578A0033A3C2 /* CLPPets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPets.storyboard; sourceTree = "<group>"; };
-		54F6A5501F765C570033A3C2 /* CLPPetsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetsTableViewCell.h; sourceTree = "<group>"; };
-		54F6A5511F765C570033A3C2 /* CLPPetsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetsTableViewCell.m; sourceTree = "<group>"; };
-		54F6A5521F765C570033A3C2 /* CLPPetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLPPetsTableViewCell.xib; sourceTree = "<group>"; };
-
 		5827FCD01F760938004BBFB0 /* CLPPets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPets.storyboard; sourceTree = "<group>"; };
 		5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5324.mov; sourceTree = "<group>"; };
 		5827FCD31F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetsVideoPlayerViewController.h; sourceTree = "<group>"; };
@@ -181,6 +182,10 @@
 		54CD26E51F7603DC0027EA3A /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				541B1AA41F769638009F8B65 /* petvideo1.mp4 */,
+				541B1AA51F769638009F8B65 /* petvideo2.mp4 */,
+				541B1AA31F769638009F8B65 /* petvideo3.mp4 */,
+				541B1AA21F769638009F8B65 /* petvideo4.mp4 */,
 				54CD26E91F7605440027EA3A /* CLPFollow.storyboard */,
 				54CD26EF1F76072F0027EA3A /* CLPFollowViewController.h */,
 				54CD26F01F76072F0027EA3A /* CLPFollowViewController.m */,
@@ -387,14 +392,18 @@
 				5827FCD61F762F35004BBFB0 /* IMG_5324.mov in Resources */,
 				5827FCDE1F7665D6004BBFB0 /* Main.storyboard in Resources */,
 				54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */,
+				541B1AA71F769638009F8B65 /* petvideo3.mp4 in Resources */,
 				584A0BAC1F710532006BC776 /* LaunchScreen.storyboard in Resources */,
 				54CD26FB1F7609E10027EA3A /* CLPFollowImageTableViewCell.xib in Resources */,
 				54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */,
 				54CD26EE1F7605710027EA3A /* CLPUser.storyboard in Resources */,
+				541B1AA81F769638009F8B65 /* petvideo1.mp4 in Resources */,
+				541B1AA61F769638009F8B65 /* petvideo4.mp4 in Resources */,
 				54CD26F61F7609A20027EA3A /* CLPFollowVideoTableViewCell.xib in Resources */,
 				5827FCE61F767333004BBFB0 /* CLPPetsListCollectionViewCell.xib in Resources */,
 				5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */,
 				584A0BA91F710532006BC776 /* Assets.xcassets in Resources */,
+				541B1AA91F769638009F8B65 /* petvideo2.mp4 in Resources */,
 				54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
