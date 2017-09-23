@@ -28,6 +28,8 @@
 		541B1B0B1F76ACD1009F8B65 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B1AF01F76AA09009F8B65 /* TZVideoPlayerController.m */; };
 		541B1B0C1F76ACD3009F8B65 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B1AF71F76AA0A009F8B65 /* UIView+Layout.m */; };
 		541B1B0D1F76ADBF009F8B65 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B1AEF1F76AA09009F8B65 /* TZAssetModel.m */; };
+		5460FD691F76D00C00646E2B /* CLPArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5460FD681F76D00C00646E2B /* CLPArticleViewController.m */; };
+		5460FD6F1F76D07600646E2B /* CLPArticleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5460FD6E1F76D07600646E2B /* CLPArticleDetailViewController.m */; };
 		54CD26E81F76051E0027EA3A /* CLPPetHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */; };
 		54CD26EA1F7605440027EA3A /* CLPFollow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26E91F7605440027EA3A /* CLPFollow.storyboard */; };
 		54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */; };
@@ -112,6 +114,10 @@
 		541B1AF81F76AA0A009F8B65 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
 		541B1AFB1F76ABF2009F8B65 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		541B1AFD1F76AC0B009F8B65 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5460FD671F76D00C00646E2B /* CLPArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPArticleViewController.h; sourceTree = "<group>"; };
+		5460FD681F76D00C00646E2B /* CLPArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPArticleViewController.m; sourceTree = "<group>"; };
+		5460FD6D1F76D07600646E2B /* CLPArticleDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPArticleDetailViewController.h; sourceTree = "<group>"; };
+		5460FD6E1F76D07600646E2B /* CLPArticleDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPArticleDetailViewController.m; sourceTree = "<group>"; };
 		54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPetHome.storyboard; sourceTree = "<group>"; };
 		54CD26E91F7605440027EA3A /* CLPFollow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPFollow.storyboard; sourceTree = "<group>"; };
 		54CD26EB1F76055F0027EA3A /* CLPPublish.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPublish.storyboard; sourceTree = "<group>"; };
@@ -318,6 +324,10 @@
 				54CD26E71F76051E0027EA3A /* CLPPetHome.storyboard */,
 				5827FCF31F76A429004BBFB0 /* CLPPetHomeViewController.h */,
 				5827FCF41F76A429004BBFB0 /* CLPPetHomeViewController.m */,
+				5460FD671F76D00C00646E2B /* CLPArticleViewController.h */,
+				5460FD681F76D00C00646E2B /* CLPArticleViewController.m */,
+				5460FD6D1F76D07600646E2B /* CLPArticleDetailViewController.h */,
+				5460FD6E1F76D07600646E2B /* CLPArticleDetailViewController.m */,
 			);
 			path = PetHome;
 			sourceTree = "<group>";
@@ -574,6 +584,7 @@
 				541B1B061F76ACCA009F8B65 /* TZLocationManager.m in Sources */,
 				541B1B091F76ACCE009F8B65 /* TZPhotoPreviewController.m in Sources */,
 				541B1B0B1F76ACD1009F8B65 /* TZVideoPlayerController.m in Sources */,
+				5460FD6F1F76D07600646E2B /* CLPArticleDetailViewController.m in Sources */,
 				541B1B0C1F76ACD3009F8B65 /* UIView+Layout.m in Sources */,
 				541B1B0A1F76ACD0009F8B65 /* TZProgressView.m in Sources */,
 				5827FCF21F7697DE004BBFB0 /* CLPPublishPopupBackgroundViewController.m in Sources */,
@@ -584,6 +595,7 @@
 				5827FCF51F76A429004BBFB0 /* CLPPetHomeViewController.m in Sources */,
 				5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */,
 				5827FCEA1F768E9C004BBFB0 /* CLPTabBarController.m in Sources */,
+				5460FD691F76D00C00646E2B /* CLPArticleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,7 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96K5LYU486;
+				DEVELOPMENT_TEAM = 2UR8UJ94NS;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;
@@ -761,7 +773,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96K5LYU486;
+				DEVELOPMENT_TEAM = 2UR8UJ94NS;
 				INFOPLIST_FILE = "$(SRCROOT)/CloudPets/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.icestraw.CloudPets;

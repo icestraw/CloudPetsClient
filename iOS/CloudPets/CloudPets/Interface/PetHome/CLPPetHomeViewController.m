@@ -7,6 +7,7 @@
 //
 
 #import "CLPPetHomeViewController.h"
+#import "CLPArticleViewController.h"
 
 @interface CLPPetHomeViewController () <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UISearchBarDelegate>
 
@@ -82,7 +83,12 @@
 - (void)gotoResultUsingText:(NSString *)text {
     [self performSegueWithIdentifier:@"article" sender:nil];
 }
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
 
+    CLPArticleViewController *articleVC = segue.destinationViewController;
+    articleVC.infoDic = @{@"peturl":@"bosimao",@"variety":@"Persian cat",@"color":@"Brownish yellow",@"commondity":@"Youqu Yidi",@"Toy":@"Ball Frisbee",@"cheats":@"Many people in the beginning when the intention of raising a cat…",@"hospital":@"Beijing Chaoyang pet hospital",@"shop":@"010 - 5467823"};
+    
+}
 - (IBAction)cameraButtonPressed:(id)sender {
     UIImagePickerController *ipc = [[UIImagePickerController alloc] init];
     ipc.delegate = self;
