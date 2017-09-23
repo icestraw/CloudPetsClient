@@ -17,7 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"你大爷永远是你大爷");
+    
+    [[UIView appearance] setTintColor:[UIColor colorWithRed:250/256.0 green:50/256.0 blue:100/256.0 alpha:1]];
     return YES;
 }
 

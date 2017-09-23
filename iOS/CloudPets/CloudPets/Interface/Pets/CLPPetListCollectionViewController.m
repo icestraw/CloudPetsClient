@@ -23,7 +23,10 @@ static NSString * const reuseIdentifier = @"Cell";
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    UINib *nib = [UINib nibWithNibName:@"CLPPetsListCollectionViewCell" bundle:nil];
+    [self.collectionView registerNib:nib forCellWithReuseIdentifier:reuseIdentifier];
+    self.collectionView.backgroundColor = [UIColor colorWithRed:245.0/256.0 green:245.0/256.0 blue:245.0/256.0 alpha:1];
+//    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
     
@@ -32,7 +35,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.tabBarController.title = @"云养宠";
+    self.tabBarController.title = @"CloudPets";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -52,6 +55,17 @@ static NSString * const reuseIdentifier = @"Cell";
 
 #pragma mark <UICollectionViewDataSource>
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section {
+    return CGSizeMake([UIScreen mainScreen].bounds.size.width, 50);
+}
+
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
+    if ([kind isEqualToString:UICollectionElementKindSectionHeader]) {
+        return [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header" forIndexPath:indexPath];
+    }
+    return nil;
+}
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
 //#warning Incomplete implementation, return the number of sections
     return 1;
@@ -60,14 +74,60 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 //#warning Incomplete implementation, return the number of items
-    return 100;
+    return 6;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
     // Configure the cell
-    cell.backgroundColor = [UIColor colorWithRed:arc4random() % 256 / 256.0 green:arc4random() % 256 / 256.0 blue:arc4random() % 256 / 256.0 alpha:1];
+//    cell.backgroundColor = [UIColor colorWithRed:arc4random() % 256 / 256.0 green:arc4random() % 256 / 256.0 blue:arc4random() % 256 / 256.0 alpha:1];
+    
+    UIView *bgView = [cell viewWithTag:99];
+    bgView.layer.cornerRadius = 10;
+    
+    UIImageView *i = [cell viewWithTag:100];
+    i.layer.cornerRadius = 10;
+    
+    UILabel *title = [cell viewWithTag:101];
+    UILabel *description = [cell viewWithTag:102];
+    
+    i.image = [UIImage imageNamed:[NSString stringWithFormat:@"%ld", indexPath.row + 1]];
+    i.contentMode = UIViewContentModeScaleAspectFill;
+    i.clipsToBounds = YES;
+    
+    switch (indexPath.row) {
+        case 0:
+            title.text = @"Lucy";
+            description.text = @"The dog was released from the hospital…";
+            break;
+        case 1:
+            title.text = @"Angel";
+            description.text = @"The cat has just woken up…";
+            break;
+        case 2:
+            title.text = @"Lucy";
+            description.text = @"The dog was released from the hospital…";
+            break;
+        case 3:
+            title.text = @"Angel";
+            description.text = @"The cat has just woken up…";
+            break;
+        case 4:
+            title.text = @"Lucy";
+            description.text = @"The dog was released from the hospital…";
+            break;
+        case 5:
+            title.text = @"Angel";
+            description.text = @"The cat has just woken up…";
+            break;
+        case 6:
+            title.text = @"Lucy";
+            description.text = @"The dog was released from the hospital…";
+            break;
+        default:
+            break;
+    }
     
     return cell;
 }
@@ -78,7 +138,7 @@ static NSString * const reuseIdentifier = @"Cell";
     CGRect screenSize = [UIScreen mainScreen].bounds;
     
     CGFloat width = screenSize.size.width / 2.0;
-    CGFloat height = width / 3.0 * 4.0;
+    CGFloat height = width / 3.3 * 4.0;
     return CGSizeMake(width, height);
 }
 
