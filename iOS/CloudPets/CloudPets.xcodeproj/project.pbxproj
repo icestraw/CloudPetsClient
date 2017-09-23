@@ -16,8 +16,6 @@
 		54CD26F61F7609A20027EA3A /* CLPFollowVideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26F41F7609A20027EA3A /* CLPFollowVideoTableViewCell.xib */; };
 		54CD26FA1F7609E10027EA3A /* CLPFollowImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD26F81F7609E10027EA3A /* CLPFollowImageTableViewCell.m */; };
 		54CD26FB1F7609E10027EA3A /* CLPFollowImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CD26F91F7609E10027EA3A /* CLPFollowImageTableViewCell.xib */; };
-		54F6A5531F765C570033A3C2 /* CLPPetsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F6A5511F765C570033A3C2 /* CLPPetsTableViewCell.m */; };
-		54F6A5541F765C570033A3C2 /* CLPPetsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54F6A5521F765C570033A3C2 /* CLPPetsTableViewCell.xib */; };
 		5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD01F760938004BBFB0 /* CLPPets.storyboard */; };
 		5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */; };
 		5827FCD61F762F35004BBFB0 /* IMG_5324.mov in Resources */ = {isa = PBXBuildFile; fileRef = 5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */; };
@@ -66,9 +64,6 @@
 		54CD26F71F7609E10027EA3A /* CLPFollowImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPFollowImageTableViewCell.h; sourceTree = "<group>"; };
 		54CD26F81F7609E10027EA3A /* CLPFollowImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPFollowImageTableViewCell.m; sourceTree = "<group>"; };
 		54CD26F91F7609E10027EA3A /* CLPFollowImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLPFollowImageTableViewCell.xib; sourceTree = "<group>"; };
-		54F6A5501F765C570033A3C2 /* CLPPetsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetsTableViewCell.h; sourceTree = "<group>"; };
-		54F6A5511F765C570033A3C2 /* CLPPetsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPPetsTableViewCell.m; sourceTree = "<group>"; };
-		54F6A5521F765C570033A3C2 /* CLPPetsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CLPPetsTableViewCell.xib; sourceTree = "<group>"; };
 		5827FCD01F760938004BBFB0 /* CLPPets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLPPets.storyboard; sourceTree = "<group>"; };
 		5827FCD21F7627B2004BBFB0 /* IMG_5324.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_5324.mov; sourceTree = "<group>"; };
 		5827FCD31F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLPPetsVideoPlayerViewController.h; sourceTree = "<group>"; };
@@ -258,9 +253,6 @@
 				584A0BDA1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m */,
 				5827FCD31F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.h */,
 				5827FCD41F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m */,
-				54F6A5501F765C570033A3C2 /* CLPPetsTableViewCell.h */,
-				54F6A5511F765C570033A3C2 /* CLPPetsTableViewCell.m */,
-				54F6A5521F765C570033A3C2 /* CLPPetsTableViewCell.xib */,
 				5827FCD01F760938004BBFB0 /* CLPPets.storyboard */,
 				5827FCE21F767333004BBFB0 /* CLPPetsListCollectionViewCell.h */,
 				5827FCE31F767333004BBFB0 /* CLPPetsListCollectionViewCell.m */,
@@ -397,7 +389,6 @@
 				5827FCD11F760938004BBFB0 /* CLPPets.storyboard in Resources */,
 				584A0BA91F710532006BC776 /* Assets.xcassets in Resources */,
 				54CD26EC1F76055F0027EA3A /* CLPPublish.storyboard in Resources */,
-				54F6A5541F765C570033A3C2 /* CLPPetsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +421,6 @@
 				54CD26F51F7609A20027EA3A /* CLPFollowVideoTableViewCell.m in Sources */,
 				54CD26FA1F7609E10027EA3A /* CLPFollowImageTableViewCell.m in Sources */,
 				584A0BDB1F710DD5006BC776 /* CLPPetShowcaseTableViewController.m in Sources */,
-				54F6A5531F765C570033A3C2 /* CLPPetsTableViewCell.m in Sources */,
 				584A0BD51F7107D3006BC776 /* CLPPetListCollectionViewController.m in Sources */,
 				584A0BA11F710532006BC776 /* AppDelegate.m in Sources */,
 				5827FCD51F76286F004BBFB0 /* CLPPetsVideoPlayerViewController.m in Sources */,
